@@ -5,5 +5,5 @@ interface AbstractService<T> {
 }
 
 export function useInstance<T>(Cl: AbstractService<T>): T {
-    return useMemo(() => Cl.getInstance(), [ Cl ]);
+	return useMemo(() => Cl.getInstance(), [ Cl ]);
 }

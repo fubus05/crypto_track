@@ -7,14 +7,14 @@ import Dashboard from './pages/dashboard/dashboard.page';
 import DrawerComponent from './drawer/drawer.component';
 
 export const AppWrapper = memo(() => {
-  return(
-    <Router>
-      <DrawerComponent/>
-      <Routes>
-          <Route path='/' element={<Dashboard/>}/>
-          {/* <Route path='/news' element={<News/>}/> */}
-          {/* <Route path='/watchlist' element={<WatchlistPage/>}/> */}
-      </Routes>
-    </Router>
-  )
-})
+	return(
+		<Router>
+			<DrawerComponent/>
+			<Routes>
+				<Route path='/' element={<Dashboard/>}/>
+				{/* <Route path='/news' element={<News/>}/> */}
+				{/* <Route path='/watchlist' element={<WatchlistPage/>}/> */}
+			</Routes>
+		</Router>
+	);
+});
