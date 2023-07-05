@@ -1,14 +1,6 @@
 import axios from 'axios';
 import { makeAutoObservable, runInAction } from 'mobx';
-
-export interface ICoins {
-    rank: string;
-    symbol: string;
-    name: string;
-    iconUrl: string;
-    price: string;
-    change: string;
-}
+import { ICoins } from '../../../pages/dashboard/dashboard.interface';
 
 export class CoinsService {
 	private static instance: CoinsService;

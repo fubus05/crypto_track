@@ -39,7 +39,7 @@ const CustomButton = styled(Button)({
 });
   
 
-const DrawerComponent: React.FC = () => {
+const BarComponent: React.FC = () => {
 	const navigate = useNavigate();
 
 	return(
@@ -55,4 +55,4 @@ const DrawerComponent: React.FC = () => {
 		</AppBar>
 	);};
 
-export default DrawerComponent;
+export default BarComponent;
